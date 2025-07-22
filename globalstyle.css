@@ -92,3 +92,18 @@
     justify-content: center;
   }
 }
+.content {
+  z-index: 1;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.seccion {
+  padding: 4rem 1rem;
+}
+
+.repos-grid,
+.certificados-grid {
+  padding: 0 1rem;
+}
