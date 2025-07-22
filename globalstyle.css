@@ -1,0 +1,94 @@
+/* ==================== GLOBAL RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .btn, .btn-outline {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .content p.subtext {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .dock {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 0 1rem;
+  }
+
+  .dock-container {
+    padding-bottom: 1rem;
+  }
+
+  .timeline {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .timeline-item {
+    width: 220px;
+    padding: 1rem;
+  }
+
+  .tech-icons img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .repo-card, .cert-card {
+    padding: 1rem;
+  }
+
+  .repo-card p,
+  .cert-card p {
+    font-size: 0.85rem;
+  }
+
+  .dock img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .timeline-item {
+    width: 200px;
+    font-size: 0.85rem;
+  }
+
+  .timeline-item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tech-icons {
+    justify-content: center;
+  }
+}
